@@ -4,5 +4,4 @@ metadata:
   name: the-deployment
 spec:
   replicas: 2
-  strategy:
-    type: Recreate
+ 
