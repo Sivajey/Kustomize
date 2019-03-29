@@ -7,7 +7,6 @@ commonAnnotations:
 bases:
 - ../../base
 patchesStrategicMerge:
-- config.env
 - map.yaml
 configMapGenerator:
   - name: env-config
