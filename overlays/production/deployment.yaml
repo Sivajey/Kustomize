@@ -4,3 +4,7 @@ metadata:
   name: the-deployment
 spec:
   replicas: 10
+  template:
+   spec:
+    containers:
+     image: busybox:latest
