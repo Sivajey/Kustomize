@@ -6,7 +6,7 @@ commonAnnotations:
   note: Hello, I am staging!
 bases:
 - ../../base
-patchesStrategicMerge:
+patchesStrategicRecreate:
 - map.yaml
 - deployment.yaml
 
