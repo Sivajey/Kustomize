@@ -8,7 +8,4 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - map.yaml
-configMapGenerator:
-  - name: env-config
-    files:
-      - config.env
+
